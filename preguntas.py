@@ -51,11 +51,11 @@ def pregunta_02():
 
     # Cree un vector con la variable de respuesta ('party')
     #y = ____
-    y = df['party'].values
+    y = df['party'].array
 
     # Extraiga las variables de entrada
     #X = ____
-    X = df.drop('party', axis=1).values
+    X = df.drop(columns=['party'], axis=1).values
 
     # Importe el transformador OrdinalEncoder
     #from ____ import ____
