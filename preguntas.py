@@ -51,7 +51,7 @@ def pregunta_02():
 
     # Cree un vector con la variable de respuesta ('party')
     #y = ____
-    y = df['party'].array
+    y = df['party'].values
 
     # Extraiga las variables de entrada
     #X = ____
